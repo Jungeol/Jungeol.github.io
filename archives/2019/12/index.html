@@ -203,20 +203,20 @@ VS Code의 왼쪽 Extensions 탭을 열고 키워드를 검색 하여 Spring Boo
         
         <div class="article-meta">
             <div class="category">
-            <a class="article-category-link" href="/categories/git/">git</a>
+            <a class="article-category-link" href="/categories/back-end/">back-end</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/back-end/c/">c#</a>
             </div>
             <div class="date"><time datetime="2019-12-04T12:40:29.000Z" itemprop="datePublished">2019-12-04</time></div>
         </div>
         
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2019/12/04/git-basic/">git-basic</a>
+        <a href="/2019/12/04/csharp-linq/">csharp-linq</a>
         </h1>
     
 
         <p class="article-excerpt">
-            1.최초 설정사용자 이름과 메일 주소 설정1$ git config --global user.name &quot;FirstName Lastname&quot;2$ git config --global user.email &quot;yourEmail@example.com&quot;
-명령어 UI 기본 설정1$ git config --golobal color.ui a
+            LinqFullOuterJoinmethod 방식으로는 한번에 가능
+1static void Main(string[] args)2&#123;3    var ax &#x3D; new[] &#123; 4        new &#123; id &#x3D; 1, name &#x3D; &quot;John&quot; &#125;,5        new &#123; id 
         </p>
     </div>
 </article>
@@ -231,20 +231,20 @@ VS Code의 왼쪽 Extensions 탭을 열고 키워드를 검색 하여 Spring Boo
         
         <div class="article-meta">
             <div class="category">
-            <a class="article-category-link" href="/categories/csharp/">csharp</a>
+            <a class="article-category-link" href="/categories/git/">git</a>
             </div>
             <div class="date"><time datetime="2019-12-04T12:40:29.000Z" itemprop="datePublished">2019-12-04</time></div>
         </div>
         
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2019/12/04/csharp-linq/">csharp-linq</a>
+        <a href="/2019/12/04/git-basic/">git-basic</a>
         </h1>
     
 
         <p class="article-excerpt">
-            LinqFullOuterJoinmethod 방식으로는 한번에 가능
-1static void Main(string[] args)2&#123;3    var ax &#x3D; new[] &#123; 4        new &#123; id &#x3D; 1, name &#x3D; &quot;John&quot; &#125;,5        new &#123; id 
+            1.최초 설정사용자 이름과 메일 주소 설정1$ git config --global user.name &quot;FirstName Lastname&quot;2$ git config --global user.email &quot;yourEmail@example.com&quot;
+명령어 UI 기본 설정1$ git config --golobal color.ui a
         </p>
     </div>
 </article>
@@ -270,12 +270,15 @@ VS Code의 왼쪽 Extensions 탭을 열고 키워드를 검색 하여 Spring Boo
         
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2019/12/04/git-ssh_key/">git-ssh_key</a>
+        <a href="/2019/12/04/git-branch/">git-branch</a>
         </h1>
     
 
         <p class="article-excerpt">
-            2. SSH Key 관련SSH Key 생성1$ ssh-keygen -t rsa -C &quot;yourEmail@example.com&quot;2Generating public&#x2F;private rsa key pair.3Enter file in which to save the key (&#x2F;c&#x2F;Users&#x2F;yourUserDirec
+            branchcreate branch1$ git branch &#123;&#123;branch-name&#125;&#125;
+see branch info -&gt; log with decorate option.
+1$ git log --decorate
+switch to branch1$ git checkout &#123;&#123;branch-name&#125;
         </p>
     </div>
 </article>
@@ -297,15 +300,12 @@ VS Code의 왼쪽 Extensions 탭을 열고 키워드를 검색 하여 Spring Boo
         
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2019/12/04/git-branch/">git-branch</a>
+        <a href="/2019/12/04/git-ssh_key/">git-ssh_key</a>
         </h1>
     
 
         <p class="article-excerpt">
-            branchcreate branch1$ git branch &#123;&#123;branch-name&#125;&#125;
-see branch info -&gt; log with decorate option.
-1$ git log --decorate
-switch to branch1$ git checkout &#123;&#123;branch-name&#125;
+            2. SSH Key 관련SSH Key 생성1$ ssh-keygen -t rsa -C &quot;yourEmail@example.com&quot;2Generating public&#x2F;private rsa key pair.3Enter file in which to save the key (&#x2F;c&#x2F;Users&#x2F;yourUserDirec
         </p>
     </div>
 </article>
@@ -425,26 +425,21 @@ thisArg: callback시 this로 활용되는 값사용법11[1, 2, 3, 4].map(functio
         
         <div class="article-meta">
             <div class="category">
-            <a class="article-category-link" href="/categories/linux/">linux</a>
+            <a class="article-category-link" href="/categories/javascript/">javascript</a>
             </div>
             <div class="date"><time datetime="2019-12-04T12:40:29.000Z" itemprop="datePublished">2019-12-04</time></div>
         </div>
         
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2019/12/04/linux-SFTP/">linux-SFTP</a>
+        <a href="/2019/12/04/javascript-sort/">javascript-sort</a>
         </h1>
     
 
         <p class="article-excerpt">
-            SFTP 만 로그인 되는 계정 설정
-ssh에서 쉘을 허용할경우 보안 문제가 생김.
-이때문에 가능한 사용자가 쉘 접근을 하지 못하게 막을 필요가 있음.
-nas의 경우 파일 다운로드 업로드가 주 용도이기 때문에 sftp만 이용할 수 있는 계정만있어도 충분
-
-계정 생성계정생성
-
-sftp만 로그인 되는 계정은 스스로 비밀번호를 변경할 수 없음1# 유저 생성2$ s
+            JavaScript SortNotes
+Javascript’s sort function is basically sorted by string(even if the value is a number).1var arr &#x3D; [2,12,3,4,1];2console.log(arr.sort());3&#x2F;&#x2F; [1, 12, 2, 3, 4]
+Target
         </p>
     </div>
 </article>
@@ -496,7 +491,7 @@ sftp만 로그인 되는 계정은 스스로 비밀번호를 변경할 수 없�
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">categories</h3>
         <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Java/Spring-Boot/">Spring Boot</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/csharp/">csharp</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/db/">db</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/db/mssql/">mssql</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/db/sqlite/">sqlite</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/git/">git</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/idea/">idea</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/javascript/">javascript</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/linux/">linux</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/markdown/">markdown</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/nodejs/">nodejs</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/seminar/">seminar</a><span class="category-list-count">18</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/vagrant/">vagrant</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/vim/">vim</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/windows-bat/">windows_bat</a><span class="category-list-count">1</span></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Java/Spring-Boot/">Spring Boot</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/back-end/">back-end</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/back-end/c/">c#</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/db/">db</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/db/mssql/">mssql</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/db/sqlite/">sqlite</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/front-end/">front-end</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/front-end/react/">react</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/git/">git</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/idea/">idea</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/javascript/">javascript</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/linux/">linux</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/markdown/">markdown</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/nodejs/">nodejs</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/seminar/">seminar</a><span class="category-list-count">18</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/vagrant/">vagrant</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/vim/">vim</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/windows-bat/">windows_bat</a><span class="category-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -506,7 +501,7 @@ sftp만 로그인 되는 계정은 스스로 비밀번호를 변경할 수 없�
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">tag cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/csharp/" style="font-size: 10px;">csharp</a> <a href="/tags/excel/" style="font-size: 10px;">excel</a> <a href="/tags/git/" style="font-size: 13.33px;">git</a> <a href="/tags/idea/" style="font-size: 10px;">idea</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/javascript/" style="font-size: 13.33px;">javascript</a> <a href="/tags/linux/" style="font-size: 13.33px;">linux</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/mssql/" style="font-size: 10px;">mssql</a> <a href="/tags/nodejs/" style="font-size: 16.67px;">nodejs</a> <a href="/tags/seminar/" style="font-size: 20px;">seminar</a> <a href="/tags/spring-boot/" style="font-size: 10px;">spring boot</a> <a href="/tags/sql/" style="font-size: 10px;">sql</a> <a href="/tags/sqlite/" style="font-size: 10px;">sqlite</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/vim/" style="font-size: 10px;">vim</a> <a href="/tags/windows-bat/" style="font-size: 10px;">windows_bat</a>
+            <a href="/tags/c/" style="font-size: 10px;">c#</a> <a href="/tags/excel/" style="font-size: 10px;">excel</a> <a href="/tags/git/" style="font-size: 13.33px;">git</a> <a href="/tags/idea/" style="font-size: 10px;">idea</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/javascript/" style="font-size: 13.33px;">javascript</a> <a href="/tags/linq/" style="font-size: 10px;">linq</a> <a href="/tags/linux/" style="font-size: 13.33px;">linux</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/mssql/" style="font-size: 10px;">mssql</a> <a href="/tags/nodejs/" style="font-size: 16.67px;">nodejs</a> <a href="/tags/react/" style="font-size: 10px;">react</a> <a href="/tags/seminar/" style="font-size: 20px;">seminar</a> <a href="/tags/spring-boot/" style="font-size: 10px;">spring boot</a> <a href="/tags/sql/" style="font-size: 10px;">sql</a> <a href="/tags/sqlite/" style="font-size: 10px;">sqlite</a> <a href="/tags/ui-framework/" style="font-size: 10px;">ui-framework</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/vim/" style="font-size: 10px;">vim</a> <a href="/tags/windows-bat/" style="font-size: 10px;">windows_bat</a>
         </div>
     </div>
 
