@@ -149,15 +149,19 @@
         
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2019/12/04/nodejs-react/">nodejs-react</a>
+        <a href="/2019/12/04/nodejs-test/">nodejs-test</a>
         </h1>
     
 
         <p class="article-excerpt">
-            reactjsx기존 방식과 비교
-1// 리액트 엘리먼트2React.createElement(ElementName, &#123;list:[...]&#125;)3// JSX4&lt;Elementname list=&#123;[...]&#125;/&gt;
-className
-1// class는 javascript의 예약어 이므로 calssName을 쓴다2&lt;h1
+            unit Test코드검사
+동료검토
+Code linter
+코드검사(Code Coverage)
+Istanbul: 코드의 어떤부분이 테스트로 다뤄지지 않았는지 검사
+Chai: assrtion 라이브러리
+Mocha: 테스트 레이아웃 라이브러리Mochainstall1$ npm install --save mocha
+run11$ node node_modules&#x2F
         </p>
     </div>
 </article>
@@ -166,6 +170,40 @@ className
     
     
     
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/nodejs/">nodejs</a>
+            </div>
+            <div class="date"><time datetime="2019-12-04T12:40:29.000Z" itemprop="datePublished">2019-12-04</time></div>
+        </div>
+        
+    
+        <h1 class="article-title" itemprop="name">
+        <a href="/2019/12/04/nodejs-webpack/">nodejs-webpack</a>
+        </h1>
+    
+
+        <p class="article-excerpt">
+            webpack모듈 번들러
+install1$ npm install -g webpack
+set env1$ npm install babel-core babel-loader babel-preset-env babel-preset-react babel-preset-stage-0 --save-dev2$ npm install react react-dom --save
+se
+        </p>
+    </div>
+</article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
     
         <article class="article article-summary">
     <div class="article-summary-inner">
@@ -193,44 +231,6 @@ className
 파이어베이스로는 데이터분석의 대응에 한계가 있다.
 자주 보는 중요한 지표는 자동화 하자.
 Raw Data는 BigQuery에 연결이 
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-    
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/nodejs/">nodejs</a>
-            </div>
-            <div class="date"><time datetime="2019-12-04T12:40:29.000Z" itemprop="datePublished">2019-12-04</time></div>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2019/12/04/nodejs-test/">nodejs-test</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            unit Test코드검사
-동료검토
-Code linter
-코드검사(Code Coverage)
-Istanbul: 코드의 어떤부분이 테스트로 다뤄지지 않았는지 검사
-Chai: assrtion 라이브러리
-Mocha: 테스트 레이아웃 라이브러리Mochainstall1$ npm install --save mocha
-run11$ node node_modules&#x2F
         </p>
     </div>
 </article>
@@ -330,26 +330,21 @@ ML 오픈소스는 텐서플로우와 케라스가 대세직접 해봐야함
         
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2019/12/04/seminar-devfest2018.03/">seminar-devfest2018.03</a>
+        <a href="/2019/12/04/seminar-devfest2018.05/">seminar-devfest2018.05</a>
         </h1>
     
 
         <p class="article-excerpt">
-            PWA로딩시간
-tti: 5초 이하
-나머지 로드: 2초 이하SPA
-장점이 많지만 초기구동속도가 느림퍼포먼스
-자바스크립트 170kb
-jpg 170kb
-두가지는 많은 차이가있음tti 줄이기
-배포과정을 최적화
-PRPL Pattern: 웹앱을 배포할때 ux를 최적화하는것
-PWA로 만듬PRPL 패턴
-
-
-
-
-완벽하게 맞추기엔 생태계가 덜 발전함Dinamic Code s
+            크로미움/블링크크로미움
+소스코드만 13GB
+빌드시간 3시간프로세스 구성process vs thread
+process: 메모리공간 독립적
+thread: 메모리 공간 공유process 를 사용하는 이유
+하나가 죽어도 safe 함
+Site isolation
+사이트별로 메모리 접근을 차단하여 보안성 높임프로세스 구성
+Browser Process
+외부와 소통(ex 
         </p>
     </div>
 </article>
@@ -375,21 +370,26 @@ PWA로 만듬PRPL 패턴
         
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2019/12/04/seminar-devfest2018.05/">seminar-devfest2018.05</a>
+        <a href="/2019/12/04/seminar-devfest2018.03/">seminar-devfest2018.03</a>
         </h1>
     
 
         <p class="article-excerpt">
-            크로미움/블링크크로미움
-소스코드만 13GB
-빌드시간 3시간프로세스 구성process vs thread
-process: 메모리공간 독립적
-thread: 메모리 공간 공유process 를 사용하는 이유
-하나가 죽어도 safe 함
-Site isolation
-사이트별로 메모리 접근을 차단하여 보안성 높임프로세스 구성
-Browser Process
-외부와 소통(ex 
+            PWA로딩시간
+tti: 5초 이하
+나머지 로드: 2초 이하SPA
+장점이 많지만 초기구동속도가 느림퍼포먼스
+자바스크립트 170kb
+jpg 170kb
+두가지는 많은 차이가있음tti 줄이기
+배포과정을 최적화
+PRPL Pattern: 웹앱을 배포할때 ux를 최적화하는것
+PWA로 만듬PRPL 패턴
+
+
+
+
+완벽하게 맞추기엔 생태계가 덜 발전함Dinamic Code s
         </p>
     </div>
 </article>
@@ -398,6 +398,44 @@ Browser Process
     
     
     
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <div class="article-meta">
+            <div class="category">
+            <a class="article-category-link" href="/categories/seminar/">seminar</a>
+            </div>
+            <div class="date"><time datetime="2019-12-04T12:40:29.000Z" itemprop="datePublished">2019-12-04</time></div>
+        </div>
+        
+    
+        <h1 class="article-title" itemprop="name">
+        <a href="/2019/12/04/seminar-feconf01.%EB%AF%B8%EA%B5%AD%EA%B0%9C%EB%B0%9C%EC%9E%90vs%ED%95%9C%EA%B5%AD%EA%B0%9C%EB%B0%9C%EC%9E%90/">seminar-feconf01.미국개발자vs한국개발자</a>
+        </h1>
+    
+
+        <p class="article-excerpt">
+            미국개발자 vs 한국개발자ken Huh(아마존)
+-&gt; 질문있으면 Ken Huh 친추
+개발자에게 중요한 것?
+개발능력
+개발능력은 비슷하나 영어능력이 차이
+미국은 시스템을 기반으로 보완하는 체계협업책임감이 뛰어나고 타인의 부분에 영향이 가는부부을 민감하게 감지하고 만약 그렇다면 긴밀하게 의사소통 하는 사람
+
+협업이 안되면 자기 자신이 잘못하고있고 고쳐야한
+        </p>
+    </div>
+</article>
+    
+        </div>
+    
+
+    
+    
+    
+    
+        <div class="article-row">
     
         <article class="article article-summary">
     <div class="article-summary-inner">
@@ -434,44 +472,6 @@ Generator function과 콘셉트가 같다고 보면 됨한글번역이 있음
     </div>
 </article>
     
-        </div>
-    
-
-    
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/seminar/">seminar</a>
-            </div>
-            <div class="date"><time datetime="2019-12-04T12:40:29.000Z" itemprop="datePublished">2019-12-04</time></div>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2019/12/04/seminar-feconf01.%EB%AF%B8%EA%B5%AD%EA%B0%9C%EB%B0%9C%EC%9E%90vs%ED%95%9C%EA%B5%AD%EA%B0%9C%EB%B0%9C%EC%9E%90/">seminar-feconf01.미국개발자vs한국개발자</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            미국개발자 vs 한국개발자ken Huh(아마존)
--&gt; 질문있으면 Ken Huh 친추
-개발자에게 중요한 것?
-개발능력
-개발능력은 비슷하나 영어능력이 차이
-미국은 시스템을 기반으로 보완하는 체계협업책임감이 뛰어나고 타인의 부분에 영향이 가는부부을 민감하게 감지하고 만약 그렇다면 긴밀하게 의사소통 하는 사람
-
-협업이 안되면 자기 자신이 잘못하고있고 고쳐야한
-        </p>
-    </div>
-</article>
-    
 
     
     
@@ -489,13 +489,20 @@ Generator function과 콘셉트가 같다고 보면 됨한글번역이 있음
         
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2019/12/04/seminar-feconf04/">seminar-feconf04</a>
+        <a href="/2019/12/04/seminar-feconf03/">seminar-feconf03</a>
         </h1>
     
 
         <p class="article-excerpt">
-            한편의 애니메이션 같은 CSSNaver 회연규
-
+            ReactComponent와 D3 Object를 유기적으로 연결하는 전략박승현 eldeniyenden@gmaileldeni.github.io
+SVG
+캔바스보다 느림
+다루기 쉽고 확대해도 잘보임chart 라이브러리
+chart.js
+c3.js
+rechars.js: 확장이 어려움
+*d3.js: dom레벨, 큰 커뮤니티언제 선택을 하는가
+데이터 시각화를 하고싶은데
         </p>
     </div>
 </article>
@@ -547,7 +554,7 @@ Generator function과 콘셉트가 같다고 보면 됨한글번역이 있음
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">categories</h3>
         <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Java/Spring-Boot/">Spring Boot</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Sql/">Sql</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/csharp/">csharp</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/db/">db</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/db/mssql/">mssql</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/db/sqlite3/">sqlite3</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/git/">git</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/idea/">idea</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/javascript/">javascript</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/linux/">linux</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/markdown/">markdown</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/nodejs/">nodejs</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/seminar/">seminar</a><span class="category-list-count">18</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/vagrant/">vagrant</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/vim/">vim</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/windows-bat/">windows_bat</a><span class="category-list-count">1</span></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Java/Spring-Boot/">Spring Boot</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/csharp/">csharp</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/db/">db</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/db/mssql/">mssql</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/db/sqlite/">sqlite</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/git/">git</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/idea/">idea</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/javascript/">javascript</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/linux/">linux</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/markdown/">markdown</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/nodejs/">nodejs</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/seminar/">seminar</a><span class="category-list-count">18</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/vagrant/">vagrant</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/vim/">vim</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/windows-bat/">windows_bat</a><span class="category-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -557,7 +564,7 @@ Generator function과 콘셉트가 같다고 보면 됨한글번역이 있음
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">tag cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/csharp/" style="font-size: 10px;">csharp</a> <a href="/tags/excel/" style="font-size: 10px;">excel</a> <a href="/tags/git/" style="font-size: 15px;">git</a> <a href="/tags/idea/" style="font-size: 10px;">idea</a> <a href="/tags/java/" style="font-size: 12.5px;">java</a> <a href="/tags/javascript/" style="font-size: 15px;">javascript</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/mssql/" style="font-size: 10px;">mssql</a> <a href="/tags/nodejs/" style="font-size: 17.5px;">nodejs</a> <a href="/tags/seminar/" style="font-size: 20px;">seminar</a> <a href="/tags/spring/" style="font-size: 10px;">spring</a> <a href="/tags/spring-boot/" style="font-size: 10px;">spring boot</a> <a href="/tags/sql/" style="font-size: 10px;">sql</a> <a href="/tags/sqlite3/" style="font-size: 10px;">sqlite3</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/vim/" style="font-size: 10px;">vim</a> <a href="/tags/windows-bat/" style="font-size: 10px;">windows_bat</a>
+            <a href="/tags/csharp/" style="font-size: 10px;">csharp</a> <a href="/tags/excel/" style="font-size: 10px;">excel</a> <a href="/tags/git/" style="font-size: 15px;">git</a> <a href="/tags/idea/" style="font-size: 10px;">idea</a> <a href="/tags/java/" style="font-size: 12.5px;">java</a> <a href="/tags/javascript/" style="font-size: 15px;">javascript</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/mssql/" style="font-size: 10px;">mssql</a> <a href="/tags/nodejs/" style="font-size: 17.5px;">nodejs</a> <a href="/tags/seminar/" style="font-size: 20px;">seminar</a> <a href="/tags/spring/" style="font-size: 10px;">spring</a> <a href="/tags/spring-boot/" style="font-size: 10px;">spring boot</a> <a href="/tags/sql/" style="font-size: 10px;">sql</a> <a href="/tags/sqlite/" style="font-size: 10px;">sqlite</a> <a href="/tags/vagrant/" style="font-size: 10px;">vagrant</a> <a href="/tags/vim/" style="font-size: 10px;">vim</a> <a href="/tags/windows-bat/" style="font-size: 10px;">windows_bat</a>
         </div>
     </div>
 
